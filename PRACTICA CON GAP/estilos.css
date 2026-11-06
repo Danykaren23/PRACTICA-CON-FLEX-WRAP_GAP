@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #89e686;
+    background: #a8f7a5;
     padding: 50px 35px;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
@@ -96,7 +96,7 @@ body {
     justify-content: center;
 }
 .boton a {
-    background: #24c6e2;
+    background: #109ea3;
     color: white;
     text-decoration: none;
     padding: 12px 35px;
