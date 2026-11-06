@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #89e686;
+    padding: 50px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+.servicios {
+    background: #f7f9fc;
+    max-width: 850px;
+    width: 100%;
+    margin: auto;
+    padding: 65px 35px 40px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicios .subtitulo {
+    color: #5676aa;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.servicios h1 {
+    color: hsl(240, 86%, 46%);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.servicios .descripcion {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 40px;
+    max-width: 560px;
+}
+.contenedor {
+    background: #08083d;
+    width: 100%;
+    padding: 0 35px 30px;
+    margin-top: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.tarjeta {
+    background: white;
+    width: calc((100% - 30px) / 3);
+    min-width: 180px;
+    min-height: 175px;
+    padding: 20px 15px;
+    margin-top: -100px;
+    text-align: left;
+    box-shadow: 0 2px 6px #cccccc;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tarjeta .icono {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tarjeta .icono i {
+    color: #777;
+    font-size: 35px;
+    font-style: normal;
+}
+.tarjeta h2 {
+    color: #080807;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.tarjeta p {
+    color: #555;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.tarjeta a {
+    color: #1a2a6c;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: auto;
+}
+.boton {
+    background: #08083d;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.boton a {
+    background: #24c6e2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+h1 {
+    max-width: 850px;
+    margin: 25px auto;
+    text-align: center;
+    color: #e40c78;
+    font-size: 25px;
+}
+.imagen {
+    background: #f7f9fc;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 25px;
+}
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.imagenes img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
